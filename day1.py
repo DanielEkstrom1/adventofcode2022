@@ -1,7 +1,7 @@
 i = 0;
 lst = [0]
 
-with open("C:/Users/danie/OneDrive/Dokument/adventofcode.txt", 'r') as f:
+with open("C:/Users/danie/OneDrive/Dokument/day1.txt", 'r') as f:
   for line in f.readlines():
     if(line == "\n"):
       i += 1
@@ -11,3 +11,5 @@ with open("C:/Users/danie/OneDrive/Dokument/adventofcode.txt", 'r') as f:
 
 print(max(lst))
 print(sum(sorted(lst, reverse=True)[:3]))
+print((sorted(lst, reverse=True)[:3]))
+print((lst))
