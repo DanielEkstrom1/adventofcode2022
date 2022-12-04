@@ -37,9 +37,7 @@ def Part2():
       while(second[0] != second[1] + 1):
         set2.add(second[0])
         second[0] += 1
-      if(set1.isdisjoint(set2)):
-        pass
-      else:
+      if(set1.isdisjoint(set2) == False):
         total += 1
       set1.clear()
       set2.clear()
